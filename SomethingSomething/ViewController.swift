@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+ 
+    @IBOutlet weak var somethingButton: UIButton! 
+    
+    @IBOutlet var napstablookLabel: UIView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
